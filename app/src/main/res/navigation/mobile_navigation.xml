@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_task"
-        android:name="com.geektech.freetaskapp.ui.fragments.dashboard.TaskFragment"
+        android:name="com.geektech.freetaskapp.ui.fragments.task.TaskFragment"
         android:label="@string/title_task"
         tools:layout="@layout/fragment_task" />
 
@@ -22,4 +22,9 @@
         android:name="com.geektech.freetaskapp.ui.fragments.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="com.geektech.freetaskapp.ui.fragments.onBoard.BoardFragment"
+        android:label="fragment_board"
+        tools:layout="@layout/fragment_board" />
 </navigation>
