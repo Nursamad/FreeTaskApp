@@ -16,6 +16,6 @@ public class Prefs {
     }
 
     public boolean isBoardShow() {
-        return preferences.getBoolean("isShowm", false);
+        return preferences.getBoolean("isShown", false);
     }
 }

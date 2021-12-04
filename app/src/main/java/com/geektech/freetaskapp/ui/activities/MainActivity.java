@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
         if (!prefs.isBoardShow()) {
             navController.navigate(R.id.boardFragment);
         }
+
+
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
 
             //ниже указанный метод для удаление ActionBar в onBoarding
